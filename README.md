@@ -1,8 +1,19 @@
 # Messaging App with Node.js
 API to push User data to React FrontEnd Messaging App
-Includes Google Authentication via Firebase
+Pusher used for real-time data in combination with Mongodb
 
-### Puser used for real-time DB
+## VALUES TO REPLACE
+- server.js - Pusher API & Mongo Connection Data
+```console
+const connection_url = 'mongodb+srv://<username>:<password>@<cluster>.onmdo.mongodb.net/<database>?retryWrites=true&w=majority'
+const pusher = new Pusher({
+    appId: "APPID",
+    key: "KEY",
+    secret: "SECRET",
+    cluster: "LOCATION",
+    useTLS: true
+  });
+```
 
 ## Heroku Hosting
 ```console
