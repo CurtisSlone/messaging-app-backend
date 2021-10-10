@@ -1,6 +1,7 @@
 # Messaging App with Node.js
 API to push User data to React FrontEnd Messaging App
 Pusher used for real-time data in combination with Mongodb
+## From 'MERN Projects For Beginners: Create Five Social Web Apps Using MongoDB, Express.js, React, and Node by Nabendu Biswas
 
 ## VALUES TO REPLACE
 - server.js - Pusher API & Mongo Connection Data
